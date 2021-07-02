@@ -3,9 +3,14 @@ package com.like.dependencies
 object ThirdPart {
     object Like {
         const val Common = "com.github.like5188:Common:6.6.5"
-        const val Component = "com.github.like5188:Component:1.0.2"
         const val Paging = "com.github.like5188:Paging:0.0.2"
         const val Banner = "com.github.like5188:Banner:2.0.4"
+
+        object Component {
+            private const val version = "2.0.0"
+            const val component = "com.github.like5188.Component:component:$version"
+            const val component_plugin = "com.github.like5188.Component:component-plugin:$version"
+        }
 
         object WebViewComponent {
             private const val version = "1.0.3"
