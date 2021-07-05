@@ -5,9 +5,10 @@ object ThirdPart {
         const val Common = "com.github.like5188:Common:6.6.5"
         const val Paging = "com.github.like5188:Paging:0.0.2"
         const val Banner = "com.github.like5188:Banner:2.0.4"
+        const val Dependencies = "com.github.like5188:Dependencies:0.1.8"
 
         object Component {
-            private const val version = "2.0.1"
+            private const val version = "2.0.2"
             const val component = "com.github.like5188.Component:component:$version"
             const val component_plugin = "com.github.like5188.Component:component-plugin:$version"
         }
