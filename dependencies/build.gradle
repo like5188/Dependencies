@@ -2,6 +2,7 @@ plugins {
     id 'java-library'
     id 'kotlin'
     id 'com.github.dcendents.android-maven'// 上传jitPack
+    id 'maven-publish'// 用于发布到本地仓库 mavenLocal()
 }
 
 java {
@@ -10,5 +11,17 @@ java {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation gradleApi()
+}
+
+// 发布到本地仓库 mavenLocal() 进行测试，通过 classpath "com.like:component-plugin:1.0" 获取。
+publishing {
+    publications {
+        ComponentPlugin(MavenPublication) {
+            from components.java
+            groupId 'com.like'
+            artifactId 'update-dependencies-plugin'
+            version '1.0'
+        }
+    }
 }

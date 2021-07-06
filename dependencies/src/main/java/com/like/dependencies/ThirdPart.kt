@@ -55,8 +55,8 @@ object ThirdPart {
     const val LoadingButton = "com.github.FlodCoding:LoadingButton:1.1.0-alpha01"
     const val PhotoView = "com.github.chrisbanes:PhotoView:2.3.0"
     const val PageTransformerHelp = "com.github.OCNYang:PageTransformerHelp:v1.0.1"
-    const val Java_WebSocket = "org.java-websocket:Java-WebSocket:1.5.1"
-    const val toast = "com.github.getActivity:ToastUtils:9.2"
+    const val Java_WebSocket = "org.java-websocket:Java-WebSocket:1.5.2"
+    const val toast = "com.github.getActivity:ToastUtils:9.5"
     const val pictureselector = "io.github.lucksiege:pictureselector:v2.7.3-rc03"
 
     // 日期时间格式化工具
@@ -72,17 +72,18 @@ object ThirdPart {
     const val videocache = "com.danikula:videocache:2.7.1"
 
     // pdf 浏览器
-    const val pdfviewpager = "es.voghdev.pdfviewpager:library:1.1.2"
+    const val pdfviewpager = "es.voghdev.pdfviewpager:library:1.1.3"
 
     // 汉字转拼音
     object Tinypinyin {
-        const val tinypinyin = "com.github.promeg:tinypinyin:2.0.3"
+        private const val version = "3.0.0"
+        const val tinypinyin = "com.github.promeg:tinypinyin:${version}"
 
         // 可选，适用于Android的中国地区词典
-        const val lexicons_android_cncity = "com.github.promeg:tinypinyin-lexicons-android-cncity:2.0.3"
+        const val lexicons_android_cncity = "com.github.promeg:tinypinyin-lexicons-android-cncity:${version}"
 
         // 可选，适用于Java的中国地区词典
-        const val lexicons_java_cncity = "com.github.promeg:tinypinyin-lexicons-java-cncity:2.0.3"
+        const val lexicons_java_cncity = "com.github.promeg:tinypinyin-lexicons-java-cncity:${version}"
     }
 
     // 扫描识别

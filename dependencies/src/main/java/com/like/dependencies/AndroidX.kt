@@ -1,7 +1,7 @@
 package com.like.dependencies
 
 object AndroidX {
-    const val core_ktx = "androidx.core:core-ktx:1.3.2"
+    const val core_ktx = "androidx.core:core-ktx:1.6.0"
     const val appcompat = "androidx.appcompat:appcompat:1.2.0"
     const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.0.4"
     const val cardview = "androidx.cardview:cardview:1.0.0"
