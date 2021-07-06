@@ -5,13 +5,6 @@ object ThirdPart {
         const val Common = "com.github.like5188:Common:6.6.5"
         const val Paging = "com.github.like5188:Paging:0.0.2"
         const val Banner = "com.github.like5188:Banner:2.0.4"
-        const val Dependencies = "com.github.like5188:Dependencies:0.1.8"
-
-        object Component {
-            private const val version = "2.0.2"
-            const val component = "com.github.like5188.Component:component:$version"
-            const val component_plugin = "com.github.like5188.Component:component-plugin:$version"
-        }
 
         object WebViewComponent {
             private const val version = "1.0.3"
@@ -75,10 +68,10 @@ object ThirdPart {
     // 手写签名
     const val signature_pad = "com.github.gcacace:signature-pad:1.3.1"
 
-    // VideoView视频边播放边缓存
+    // VideoView 视频边播放边缓存
     const val videocache = "com.danikula:videocache:2.7.1"
 
-    // pdf浏览器
+    // pdf 浏览器
     const val pdfviewpager = "es.voghdev.pdfviewpager:library:1.1.2"
 
     // 汉字转拼音
@@ -92,6 +85,7 @@ object ThirdPart {
         const val lexicons_java_cncity = "com.github.promeg:tinypinyin-lexicons-java-cncity:2.0.3"
     }
 
+    // 扫描识别
     object Scanner {
         const val Scanner = "com.shouzhong:Scanner:1.1.3"
 
@@ -123,7 +117,7 @@ object ThirdPart {
         const val ScannerIdCard2Lib = "com.shouzhong:ScannerIdCard2Lib:1.0.0"
     }
 
-    // coil图片加载库
+    // coil 图片加载库
     object Coil {
         private const val version = "1.2.2"
         const val coil = "io.coil-kt:coil:$version"
@@ -132,6 +126,15 @@ object ThirdPart {
         const val video = "io.coil-kt:coil-video:$version"
     }
 
-    // koin依赖注入库。如果升级到2.2.2版本，那么此库引入的androidx.activity:activity库会和activity-ktx冲突
+    // koin 依赖注入库。如果升级到 2.2.2 版本，那么此库引入的 androidx.activity:activity 库会和 activity-ktx 冲突
     const val koin_androidx_viewmodel = "org.koin:koin-androidx-viewmodel:2.2.2"
+
+    // 通过标签直接生成 shape，无需再写 shape.xml
+    const val BackgroundLibrary = "com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.2"
+
+    // ViewPager 指示器
+    const val MagicIndicator = "com.github.hackware1993:MagicIndicator:1.7.0"
+
+    // lottie
+    const val lottie = "com.airbnb.android:lottie:3.7.0"
 }

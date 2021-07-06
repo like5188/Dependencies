@@ -20,10 +20,13 @@ object AndroidX {
 
     object Lifecycle {
         private const val version = "2.3.1"
+
         // livedata 对协程的支持：liveData{}
         const val liveData_ktx = "androidx.lifecycle:lifecycle-livedata-ktx:$version"
+
         // Activity 或 Fragment 对协程的支持：lifecycleScope
         const val runtime_ktx = "androidx.lifecycle:lifecycle-runtime-ktx:$version"
+
         // ViewModel 对协程的支持：viewModelScope
         const val viewModel_ktx = "androidx.lifecycle:lifecycle-viewmodel-ktx:$version"
     }
@@ -32,6 +35,12 @@ object AndroidX {
         private const val version = "2.3.5"
         const val fragment_ktx = "androidx.navigation:navigation-fragment-ktx:$version"
         const val ui_ktx = "androidx.navigation:navigation-ui-ktx:$version"
+
+        // Feature module Support
+        const val dynamic_features_fragment = "androidx.navigation:navigation-dynamic-features-fragment:$version"
+
+        // Testing Navigation
+        const val testing = "androidx.navigation:navigation-testing:$version"
     }
 
     object Room {
