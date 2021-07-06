@@ -3,6 +3,11 @@ plugins {
     id 'kotlin'
     id 'com.github.dcendents.android-maven'// 上传jitPack
     id 'maven-publish'// 用于发布到本地仓库 mavenLocal()
+    // 以下两个插件，在检查依赖最新版本时打开使用
+    // UpdateDependenciesPlugin 插件，添加此库中的所有的依赖，发布到仓库时必须注释掉它。
+//    id 'update-dependencies-plugin'
+    // 应用此插件后,可以执行gradle checkDependencyUpdates 或 gradle cDU 检查依赖最新版本
+//    id("name.remal.check-dependency-updates") version "1.4.0"
 }
 
 java {
