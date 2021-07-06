@@ -2,6 +2,8 @@ plugins {
     id 'java-library'
     id 'kotlin'
     id 'com.github.dcendents.android-maven'// 上传jitPack
+    // 应用此插件后,可以执行gradle checkDependencyUpdates 或 gradle cDU 检查依赖最新版本
+    id("name.remal.check-dependency-updates") version "1.4.0"
 }
 
 java {
