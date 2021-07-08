@@ -2,9 +2,10 @@ package com.like.dependencies
 
 object ThirdPart {
     object Like {
-        const val common = "com.github.like5188:Common:6.6.5"
+        const val common = "com.github.like5188:Common:6.6.6"
         const val paging = "com.github.like5188:Paging:0.0.2"
         const val banner = "com.github.like5188:Banner:2.0.4"
+        const val component = "com.github.like5188.Component:component:2.0.5"
 
         object WebViewComponent {
             private const val version = "1.0.3"
@@ -57,7 +58,7 @@ object ThirdPart {
     const val pageTransformerHelp = "com.github.OCNYang:PageTransformerHelp:v1.0.1"
     const val java_WebSocket = "org.java-websocket:Java-WebSocket:1.5.2"
     const val toast = "com.github.getActivity:ToastUtils:9.5"
-    const val pictureselector = "io.github.lucksiege:pictureselector:v2.7.3-rc03"
+    const val pictureselector = "io.github.lucksiege:pictureselector:v2.7.3-rc05"
 
     // 日期时间格式化工具
     const val joda = "net.danlew:android.joda:2.10.9.1"
