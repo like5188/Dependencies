@@ -1,6 +1,6 @@
 package com.like.dependencies
 
-object Testing {
+object Test {
     object Java {
         const val junit = "junit:junit:4.13.2"
     }

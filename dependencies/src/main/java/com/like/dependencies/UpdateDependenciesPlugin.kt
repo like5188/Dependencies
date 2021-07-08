@@ -17,7 +17,7 @@ class UpdateDependenciesPlugin : Plugin<Project> {
         addAllDependencies(project, Google::class)
         addAllDependencies(project, Kotlin::class)
         addAllDependencies(project, ThirdPart::class)
-        addAllDependencies(project, Testing::class)
+        addAllDependencies(project, Test::class)
         println("UpdateDependenciesPlugin apply end $project")
     }
 
