@@ -2,9 +2,9 @@ package com.like.dependencies
 
 object ThirdPart {
     object Like {
-        const val Common = "com.github.like5188:Common:6.6.5"
-        const val Paging = "com.github.like5188:Paging:0.0.2"
-        const val Banner = "com.github.like5188:Banner:2.0.4"
+        const val common = "com.github.like5188:Common:6.6.5"
+        const val paging = "com.github.like5188:Paging:0.0.2"
+        const val banner = "com.github.like5188:Banner:2.0.4"
 
         object WebViewComponent {
             private const val version = "1.0.3"
@@ -52,10 +52,10 @@ object ThirdPart {
     const val javapoet = "com.squareup:javapoet:1.13.0"
     const val leakcanary_android = "com.squareup.leakcanary:leakcanary-android:2.7"
     const val android_gif_drawable = "pl.droidsonroids.gif:android-gif-drawable:1.2.23"
-    const val LoadingButton = "com.github.FlodCoding:LoadingButton:1.1.0-alpha01"
-    const val PhotoView = "com.github.chrisbanes:PhotoView:2.3.0"
-    const val PageTransformerHelp = "com.github.OCNYang:PageTransformerHelp:v1.0.1"
-    const val Java_WebSocket = "org.java-websocket:Java-WebSocket:1.5.2"
+    const val loadingButton = "com.github.FlodCoding:LoadingButton:1.1.0-alpha01"
+    const val photoView = "com.github.chrisbanes:PhotoView:2.3.0"
+    const val pageTransformerHelp = "com.github.OCNYang:PageTransformerHelp:v1.0.1"
+    const val java_WebSocket = "org.java-websocket:Java-WebSocket:1.5.2"
     const val toast = "com.github.getActivity:ToastUtils:9.5"
     const val pictureselector = "io.github.lucksiege:pictureselector:v2.7.3-rc03"
 
@@ -63,7 +63,7 @@ object ThirdPart {
     const val joda = "net.danlew:android.joda:2.10.9.1"
 
     // 选择器
-    const val Android_PickerView = "com.contrarywind:Android-PickerView:4.1.9"
+    const val android_PickerView = "com.contrarywind:Android-PickerView:4.1.9"
 
     // 手写签名
     const val signature_pad = "com.github.gcacace:signature-pad:1.3.1"
@@ -88,34 +88,31 @@ object ThirdPart {
 
     // 扫描识别
     object Scanner {
-        const val Scanner = "com.shouzhong:Scanner:1.1.3"
-
-        // zxing
-        const val zxing = "com.google.zxing:core:3.3.3"
+        const val scanner = "com.shouzhong:Scanner:1.1.3"
 
         // zbar
-        const val ScannerZBarLib = "com.shouzhong:ScannerZBarLib:1.0.0"
+        const val zBarLib = "com.shouzhong:ScannerZBarLib:1.0.0"
 
         // 银行卡识别
-        const val ScannerBankCardLib = "com.shouzhong:ScannerBankCardLib:1.0.3"
+        const val bankCardLib = "com.shouzhong:ScannerBankCardLib:1.0.3"
 
         // 身份证识别
-        const val ScannerIdCardLib = "com.shouzhong:ScannerIdCardLib:1.0.4"
+        const val idCardLib = "com.shouzhong:ScannerIdCardLib:1.0.4"
 
         // 车牌识别
-        const val ScannerLicensePlateLib = "com.shouzhong:ScannerLicensePlateLib:1.0.3"
+        const val licensePlateLib = "com.shouzhong:ScannerLicensePlateLib:1.0.3"
 
         // 图片文字识别
-        const val ScannerTextLib = "com.shouzhong:ScannerTextLib:1.0.0"
+        const val textLib = "com.shouzhong:ScannerTextLib:1.0.0"
 
         // 黄图识别
-        const val ScannerNsfwLib = "com.shouzhong:ScannerNsfwLib:1.0.0"
+        const val nsfwLib = "com.shouzhong:ScannerNsfwLib:1.0.0"
 
         // 驾驶证识别
-        const val ScannerDrivingLicenseLib = "com.shouzhong:ScannerDrivingLicenseLib:1.0.1"
+        const val drivingLicenseLib = "com.shouzhong:ScannerDrivingLicenseLib:1.0.1"
 
         // 身份证识别（第二种方式）
-        const val ScannerIdCard2Lib = "com.shouzhong:ScannerIdCard2Lib:1.0.0"
+        const val idCard2Lib = "com.shouzhong:ScannerIdCard2Lib:1.0.0"
     }
 
     // coil 图片加载库
@@ -131,10 +128,10 @@ object ThirdPart {
     const val koin_androidx_viewmodel = "org.koin:koin-androidx-viewmodel:2.2.2"
 
     // 通过标签直接生成 shape，无需再写 shape.xml
-    const val BackgroundLibrary = "com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.2"
+    const val backgroundLibrary = "com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.2"
 
     // ViewPager 指示器
-    const val MagicIndicator = "com.github.hackware1993:MagicIndicator:1.7.0"
+    const val viewpager_magicIndicator = "com.github.hackware1993:MagicIndicator:1.7.0"
 
     // lottie
     const val lottie = "com.airbnb.android:lottie:3.7.0"
