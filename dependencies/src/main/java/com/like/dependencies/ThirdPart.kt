@@ -5,7 +5,7 @@ object ThirdPart {
         const val common = "com.github.like5188:Common:6.6.6"
         const val paging = "com.github.like5188:Paging:0.0.2"
         const val banner = "com.github.like5188:Banner:2.0.4"
-        const val component = "com.github.like5188.Component:component:2.0.5"
+        const val component = "com.github.like5188.Component:component:2.0.7"
 
         object WebViewComponent {
             private const val version = "1.0.3"
