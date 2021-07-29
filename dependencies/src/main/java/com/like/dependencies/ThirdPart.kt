@@ -29,10 +29,10 @@ object ThirdPart {
         }
 
         object LiveDataBus {
-            private const val version = "2.1.9"
-            const val livedatabus = "com.github.like5188.LiveDataBus:livedatabus:$version"
-            const val annotations = "com.github.like5188.LiveDataBus:livedatabus_annotations:$version"
-            const val compiler = "com.github.like5188.LiveDataBus:livedatabus_compiler:$version"
+            private const val version = "0.0.2"
+            const val core = "com.github.like5188.FlowEventBus:floweventbus:$version"
+            const val annotations = "com.github.like5188.FlowEventBus:floweventbus_annotations:$version"
+            const val compiler = "com.github.like5188.FlowEventBus:floweventbus_compiler:$version"
         }
     }
 
